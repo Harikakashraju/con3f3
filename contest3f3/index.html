@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <p>Header</p>
+        <div>
+        <a href="#" id="signup-link">Signup</a>
+        <a href="#" id="profile-link">profile</a>
+        </div>
+    </nav>
+    <main>
+    <!-- <h1>Signup</h1> -->
+    <div id="login-div" class="signup">
+        <h1>Signup</h1>
+    <div class="inputs">
+    <label>Full Name </label> 
+    <input type="text" id="username">
+    </div>
+    <div class="inputs">
+            <label>Email </label> 
+            <input type="text" id="email">
+    </div>
+    <div class="inputs">
+    <label>Password </label>
+    <input type="password" id="password">
+    </div>
+    <div class="inputs">
+    <label>Confirm Password</label>
+    <input type="text" id="confrimpassword">
+    </div>
+    <button id="login-btn">Sign Up</button>
+    </div>
+    <br>
+
+    <div id="profile" class="Profile-con">
+    <h1>Profile</h1>
+    <div class="profiles">
+            <label>Full Name: </label> 
+            <input type="text" id="fullname" disabled>
+    </div>
+    <div class="profiles">
+        <label>Email: </label> 
+        <input type="text" id="email" disabled>
+    </div>
+    <div class="profiles">
+    <label>Password: </label> 
+    <input type="text" id="password" disabled>
+    </div>
+     <button id="logout">LogOut</button>
+    </div>
+    <h1 id="heading"></h1>
+    <div id="logout-div">
+        <button id="logout-btn">Log Out</button>
+    </div>
+
+
+</main>
+    <script src="./script.js"></script>
+</body>
+</html>
